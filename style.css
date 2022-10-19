@@ -1,0 +1,318 @@
+@import url(https://fonts.googleapis.com/css?);
+.size{
+    width:100%;
+    height: 100%;
+}
+
+body {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #191919;
+    font-family: 'Segoe UI',SegoeUI,'Segoe WP',Tahoma,Arial,sans-serif;
+
+}
+
+.overlay {
+    background: #000;
+    overflow: hidden;
+    height: 100%;
+   }
+
+
+.Login-bg{
+    background-repeat: no-repeat;
+    background-image: url('Login-bg.jpg');
+    background-size: cover;
+    /* background-blend-mode:darken; */
+}
+.nav-logo{
+    display: inline-block;
+    position: relative;
+ 
+}
+.btn-left{
+    text-align: left;
+}
+
+.underline{
+    width: 100%;
+    border-bottom: solid 2px black;
+}
+
+.nav-menu{
+    align-items: baseline;
+}
+
+.logo{
+    width: 100px;
+
+}
+
+.separator{
+    border-left: 2px solid black;
+    height: 25px;
+
+
+}
+
+.contained {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+.centered{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+}
+
+.slide1{
+    background-image: url("bg-1.jpg");
+    background: scroll;
+    background-size: cover;
+}
+
+.powerBI-report{
+    min-height: 300px;
+    width: 100%;
+}
+
+.alignment{
+    height: 100%;
+    width: 100%;
+}
+
+.vertical-align{
+    vertical-align: middle;
+}
+
+.a{
+    text-decoration: none;
+    color: black;
+    color: black;
+    
+  }
+.a:hover{
+    text-underline-offset: 10px;
+    text-decoration:2px underline;
+    color: black;
+  }
+
+  .screen-border{
+    border: solid 10px ;
+    border-radius: 5px;
+  }
+
+
+  .nav-icons{
+    width: 65px;
+}
+
+.box-wrap{
+
+    align-items:center;
+    justify-content:center;
+
+  }
+  .box{
+    /* padding:30px; */
+    /* margin: 1px; */
+    background:white;
+    /* width:100%; */
+    border:1px solid #d6d6d6;
+    box-shadow:0 2px 3px 0px rgba(0,0,0,0.25);
+    border-radius:3px;
+    transition:.2s all;
+  }
+  .box-wrap:hover .box{
+    filter:blur(3px);
+    opacity:.5;
+    transform: scale(.98);
+    box-shadow:none;
+  }
+  .box-wrap:hover .box:hover{
+    transform:scale(1);
+    filter:blur(0px);
+    opacity:1;
+    box-shadow:0 8px 20px 0px rgba(0,0,0,0.125);
+  }
+
+  /*----------------Carousel Slider------------------------*/
+
+  .carousel-item{
+    height: 60vh;
+    min-width: 300px;
+    background: no-repeat scroll center scroll;
+    background-size:cover;
+
+  }
+
+  .carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgb(0, 0, 0); 
+    opacity: 0.5;
+  }
+
+  .carousel-caption{
+    bottom: 20vh;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .carousel-caption h5{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+  .carousel-caption p{
+    color: white;
+    font-size: 16PX;
+    top:2rem;
+
+  }
+
+  .slider-button{
+    margin-top: 50px;
+  }
+
+  .slider-button .btn{
+    color: white;
+  }
+
+  .height{
+    width: 45vw;
+    height: auto;
+  }
+
+  .top{
+    padding-top: 20vh;
+  }
+
+  .top-header{
+    padding-top: 10vh;
+  }
+
+  .slide-on-screen{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin-top: 1vh;
+  }
+
+  .feed{
+    height: 2000px;
+  }
+
+  .rounded{
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+
+  .gradient-color{
+    background-image: linear-gradient(180deg,white 85%,#8ed1fc 117%);
+  }
+
+  .fa {
+    font-size: large;
+    font-weight: 400;
+    display: inline;
+  }
+
+  .checked {
+    color: orange;
+    display: inline-block;
+
+  }
+  
+  span{
+    font-size: large;
+  }
+
+  .round-img{
+    width:auto ;
+    height: 130px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .center{
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* .grad-card{
+    background-image: linear-gradient(180deg,white 50%);
+  } */
+
+  /* .icon{
+    width: 100px;
+  }
+
+  .powerBI-report{
+    height:80vh;
+    width: 50%;
+  } */
+
+  .button {
+    /* line-height: 50px; */
+    color: #fff;
+    height: 50px;
+    text-align: center;
+    width: 120px;
+    background-color: #fff;
+    /* cursor: pointer; */
+  }
+
+  .btn-anm {
+    color: rgb(0, 0, 0);
+    transition: all 0.5s;
+    position: relative;
+  }
+  .btn-anm::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: #8ed2fc00;
+    transition: all 0.3s;
+
+  }
+  .btn-anm:hover::before {
+    color: #fff;
+    opacity: 0 ;
+    transform: scale(0.5,0.5);
+  }
+  .btn-anm::after {
+    color: #000;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border: 2.5px solid #8ed1fc;
+    transform: scale(1.2,1.2);
+  }
+  .btn-anm:hover::after {
+    opacity: 1;
+    transform: scale(1,1);
+  }
+
+  
